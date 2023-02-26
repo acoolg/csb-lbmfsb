@@ -4,5 +4,5 @@ var chat = document.getElementById(y)
 function send() {
     document.getElementById("type")
     chat.innerHTML = chat.innerHTML + `
-    <h4>${chat.value}</h4>`; 
+    <h4>${chat}</h4>`; 
   }
